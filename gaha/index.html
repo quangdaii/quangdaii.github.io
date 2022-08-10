@@ -1,0 +1,1061 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaha</title>
+    <link href="theme/frontend/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+    <link href="theme/frontend/css/swiper-bundle.min.css" type="text/css" rel="stylesheet">
+    <link href="theme/frontend/css/animate.min.css" type="text/css" rel="stylesheet">
+    <link href="theme/frontend/css/lightbox.css" type="text/css" rel="stylesheet">
+    <link href="theme/frontend/css/main.css" type="text/css" rel="stylesheet">
+    <link href="./output.css" type="text/css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div
+        class="wrapper mx-auto 2xl:text-[16px] sm:text-[14px] text-[12px] text-[#333] leading-snug overflow-x-hidden font-[OpenSans]">
+        <div class="header">
+            <h1 class="hidden">gaha</h1>
+            <div class="header-top bg-[#F7E2B1] py-2 hidden lg:block">
+                <div class="container flex items-center justify-between">
+                    <ul class="h-contact text-[0.875rem] text-[#252525]">
+                        <li class="inline-block mr-6 last:mr-0">
+                            E-mail: <a href="mailto:support@gaha.vn" class="link">support@gaha.vn</a>
+                        </li>
+                        <li class="inline-block mr-6 last:mr-0">
+                            Phone: <a href="tel:+(84) 09 1234 4567" class="link">+(84) 09 1234 4567</a>
+                        </li>
+                    </ul>
+                    <div class="h-top__right flex items-center">
+                        <ul class="h-social text-[0.875rem]">
+                            <li class="inline-block mr-4 last:mr-0">Follow us:</li>
+                            <li class="inline-block mr-4 last:mr-0">
+                                <a href="#" title="Facebook" target="_blank" class="text-[#252525] text-[1.25rem]"><i
+                                        class="fa fa-facebook" aria-hidden="true"></i></a>
+                            </li>
+                            <li class="inline-block mr-4 last:mr-0">
+                                <a href="#" title="Youtube" target="_blank" class="text-[#252525] text-[1.25rem]"><i
+                                        class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                            </li>
+                            <li class="inline-block mr-4 last:mr-0">
+                                <a href="#" title="Instagram" target="_blank" class="text-[#252525] text-[1.25rem]"><i
+                                        class="fa fa-instagram" aria-hidden="true"></i></a>
+                            </li>
+                        </ul>
+                        <div class="h-lang text-[0.875rem] relative flex items-center ml-12 cursor-pointer">
+                            Language: <span class="flag mx-1"><img src="theme/frontend/images/VN.png" alt="vn"></span>
+                            <i class="fa fa-caret-down" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-nav py-2 bg-white border-b-[1px] border-solid border-[#ebebeb]">
+                <div class="container">
+                    <div class="flex justify-between lg:grid grid-cols-12 gap-2 items-center">
+                        <div class="col-span-1">
+                            <a href="" title="Trang chủ" class="h-logo">
+                                <img src="theme/frontend/images/logo-header.png" alt="logo">
+                            </a>
+                        </div>
+                        <div class="col-span-9">
+                            <div class="menu">
+                                <a href="" title="" class="logo-mobile block lg:hidden text-center py-4">
+                                    <img src="theme/frontend/images/logo-header.png" alt="logo">
+                                </a>
+                                <div class="lang-mobile block lg:hidden text-center py-4">
+                                    <a href="#" title="" class="link active">Tiếng việt</a>
+                                    <a href="#" title="" class="link ">Tiếng anh</a>
+
+                                </div>
+                                <ul>
+                                    <li><a href="./index.html" title="">Trang chủ</a></li>
+                                    <li><a href="./gioi-thieu.html" title="">Giới thiệu</a></li>
+                                    <li><a href="./dich-vu.html" title="">Dịch vụ</a></li>
+                                    <li><a href="./san-pham.html" title="">Sản phẩm</a>
+                                        <ul>
+                                            <li><a href="#" title="">Chăm sóc da</a></li>
+                                            <li><a href="#" title="">Chống nắng</a></li>
+                                            <li><a href="#" title="">Cấp ẩm</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="./tin-tuc.html" title="">Tin tức</a></li>
+                                    <li><a href="./lien-he.html" title="">Liên hệ</a></li>
+                                </ul>
+                            </div>
+                            <div class="over-lay block lg:hidden"></div>
+                        </div>
+                        <div class="col-span-2 flex lg:block items-center">
+                            <form action="" method="" class="h-search relative overflow-hidden hidden lg:block">
+                                <input type="text" name="" value="" placeholder="Search..."
+                                    class="fom-control text-[#E4A40B] bg-[#FFFBF1] placeholder:text-[#E4A40B] h-11 w-full py-2 px-4 rounded-[2.5rem] border-[1px] border-solid border-[#E4A40B] pr-12">
+                                <button
+                                    class="btn-search absolute top-1/2 -translate-y-1/2 right-0 z-[1] inline-flex items-center justify-center w-11 h-[42px] rounded-full border-[1px] border-solid border-[#E4A40B] bg-[#FFFBF1]"><img
+                                        src="theme/frontend/images/icon-search.svg" class="w-5 h-5 object-contain "
+                                        alt="search"></button>
+                            </form>
+                            <span
+                                class="btn-search  inline-flex lg:hidden items-center justify-center w-11 h-[42px] rounded-full border-[1px] border-solid border-[#E4A40B] bg-[#FFFBF1] show-form-search"><img
+                                    src="theme/frontend/images/icon-search.svg" class="w-5 h-5 object-contain"
+                                    alt="search"></span>
+                            <span class="show-menu-mobile block lg:hidden ml-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"
+                                    width="35" height="35" x="0" y="0" viewBox="0 0 384.97 384.97"
+                                    style="enable-background:new 0 0 35 35" xml:space="preserve" class="">
+                                    <g>
+                                        <g xmlns="http://www.w3.org/2000/svg">
+                                            <g id="Menu_1_">
+                                                <path
+                                                    d="M12.03,120.303h360.909c6.641,0,12.03-5.39,12.03-12.03c0-6.641-5.39-12.03-12.03-12.03H12.03    c-6.641,0-12.03,5.39-12.03,12.03C0,114.913,5.39,120.303,12.03,120.303z"
+                                                    fill="#e4a40b" data-original="#000000" class=""></path>
+                                                <path
+                                                    d="M372.939,180.455H12.03c-6.641,0-12.03,5.39-12.03,12.03s5.39,12.03,12.03,12.03h360.909c6.641,0,12.03-5.39,12.03-12.03    S379.58,180.455,372.939,180.455z"
+                                                    fill="#e4a40b" data-original="#000000" class=""></path>
+                                                <path
+                                                    d="M372.939,264.667H132.333c-6.641,0-12.03,5.39-12.03,12.03c0,6.641,5.39,12.03,12.03,12.03h240.606    c6.641,0,12.03-5.39,12.03-12.03C384.97,270.056,379.58,264.667,372.939,264.667z"
+                                                    fill="#e4a40b" data-original="#000000" class=""></path>
+                                            </g>
+                                            <g>
+                                            </g>
+                                            <g>
+                                            </g>
+                                            <g>
+                                            </g>
+                                            <g>
+                                            </g>
+                                            <g>
+                                            </g>
+                                            <g>
+                                            </g>
+                                        </g>
+                                        <g xmlns="http://www.w3.org/2000/svg">
+                                        </g>
+                                        <g xmlns="http://www.w3.org/2000/svg">
+                                        </g>
+                                        <g xmlns="http://www.w3.org/2000/svg">
+                                        </g>
+                                        <g xmlns="http://www.w3.org/2000/svg">
+                                        </g>
+                                        <g xmlns="http://www.w3.org/2000/svg">
+                                        </g>
+                                        <g xmlns="http://www.w3.org/2000/svg">
+                                        </g>
+                                        <g xmlns="http://www.w3.org/2000/svg">
+                                        </g>
+                                        <g xmlns="http://www.w3.org/2000/svg">
+                                        </g>
+                                        <g xmlns="http://www.w3.org/2000/svg">
+                                        </g>
+                                        <g xmlns="http://www.w3.org/2000/svg">
+                                        </g>
+                                        <g xmlns="http://www.w3.org/2000/svg">
+                                        </g>
+                                        <g xmlns="http://www.w3.org/2000/svg">
+                                        </g>
+                                        <g xmlns="http://www.w3.org/2000/svg">
+                                        </g>
+                                        <g xmlns="http://www.w3.org/2000/svg">
+                                        </g>
+                                        <g xmlns="http://www.w3.org/2000/svg">
+                                        </g>
+                                    </g>
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="form-search-mobile flex lg:hidden items-center justify-center">
+                <span class="close-form-search"></span>
+                <form action="" method="" class="h-search relative overflow-hidden">
+                    <input type="text" name="" value="" placeholder="Search..." id="input-search-header"
+                        class="fom-control text-[#E4A40B] bg-[#FFFBF1] placeholder:text-[#E4A40B] h-11 w-full py-2 px-4 rounded-[2.5rem] border-[1px] border-solid border-[#E4A40B] pr-12">
+                    <button
+                        class="btn-search absolute top-1/2 -translate-y-1/2 right-0 z-[1] inline-flex items-center justify-center w-11 h-[42px] rounded-full border-[1px] border-solid border-[#E4A40B] bg-[#FFFBF1]"><img
+                            src="theme/frontend/images/icon-search.svg" class="w-5 h-5 object-contain "
+                            alt="search"></button>
+                </form>
+            </div>
+        </div>
+        <div class="swiper-container slide-banner__index">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="#" title="" class="link-banner">
+                        <img src="theme/frontend/images/banner-index.jpg" alt="banner">
+                    </a>
+                    <div
+                        class="container hidden sm:flex absolute h-full top-0 left-1/2 -translate-x-1/2  justify-center">
+                        <div class="banner-content max-w-[40.625] 2xl:mt-[10.875rem] mt-6 lg:mt-20">
+                            <h2
+                                class="title-big font-semibold uppercase text-white 2xl:text-[2.5rem] lg:text-[1.875rem] text-[1.25rem] lg:mb-4 mb-2">
+                                Gia công mỹ phẩm độc quyền
+                            </h2>
+                            <div class="short_content lg:mb-4 mb-2 text-white">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit sed gravida enim amet
+                                vel, aliquam magna. Viverra risus orci velit niss
+                            </div>
+                            <a href="#" title="Tìm hiểu thêm"
+                                class="btn btn-white text-[#E4B565] bg-white rounded-[2.5rem] shadow-[0_1px_4px_rgba(0,0,0,0.14)] hover:bg-[#E4B565] hover:text-white">Tìm
+                                hiểu thêm</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div
+                class="container hidden sm:flex swiper-banner__control z-[1] right-0 left-1/2 -translate-x-1/2 2xl:bottom-16 lg:bottom-8 bottom-6 absolute items-center justify-end">
+                <div class="swiper-banner banner-prev text-white text-[2.5rem] mx-2"><i class="fa fa-angle-left"
+                        aria-hidden="true"></i></div>
+                <div class="pagination-banner"></div>
+                <div class="swiper-banner banner-next text-white text-[2.5rem] mx-2"><i class="fa fa-angle-right"
+                        aria-hidden="true"></i></div>
+
+            </div>
+        </div>
+        <section class="section-all intro_index lg:pt-20 lg:py-8 py-5">
+            <div class="container">
+                <div class="block lg:grid grid-cols-4 items-center">
+                    <div class="col-span-1 mb-4 lg:mb-0">
+                        <div class="intro-ct lg:mr-[-180px]">
+                            <div
+                                class="content relative z-[1] bg-white rounded-xl 2xl:py-20 2xl:px-12 lg:py-10 lg:px-6 p-4  w-auto shadow-[6px_8px_32px_rgba(0,0,0,.1)]">
+                                <p
+                                    class="subtitle 2xl:text-[0.875rem] text-[0.75rem] uppercase text-[#E4B565] mb-1 tracking-[0.2em] font-bold">
+                                    Giới Thiệu</p>
+                                <h3 class="title-all mb-4">Nhà máy sản xuất <br> mỹ phẩm độc quyền trọn gói</h3>
+                                <div class="short_content 2xl:mb-8 mb-4">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et tincidunt duis lectus
+                                    viverra. Turpis in ut posuere eu duis lectus suspendisse ridiculus nunc viverra.
+                                    Lorem
+                                    ipsum amet, consectetur adipiscing elit et tincidunt duis.
+                                </div>
+                                <a href="#" title="Tìm hiểu thêm" class="btn btn-all">Tìm hiểu thêm</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-span-3 wow fadeInRight">
+                        <div class="video-intro relative">
+                            <img src="theme/frontend/images/video-intro.jpg" alt="">
+
+                            <a href="" title="" data-fslightbox="video-intro"
+                                class="box-play block rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[1] 2xl:w-32 2xl:h-32 lg:w-20 lg:h-20 w-10 h-10 bg-[rgba(255,255,255,.35)] lg:p-4 transition-all duration-300 hover:p-0">
+                                <span class="play w-full h-full rounded-full bg-white flex items-center justify-center">
+                                    <i class="fa fa-play text-[#E4B565] 2xl:text-[1.875rem] text-[1.25rem]"
+                                        aria-hidden="true"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-all statis_index lg:py-8 py-5">
+            <div class="container">
+                <div class="module-content bg-white relative">
+                    <div
+                        class="grid grid-cols-2 lg:grid-cols-4 sm:gap-6 gap-4 relative z-[1] bg-white rounded-xl shadow-[6px_8px_32px_rgba(0,0,0,.08)] 2xl:py-10 lg:py-5 2xl:px-14 px-7 sm:p-4 p-2">
+                        <div class="col-span-1 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="item-statis block sm:flex items-end">
+                                <span class="icon block mx-auto shrink-0 sm:mr-4 mb-2 sm:mb-0 2xl:w-[70px] w-12 2xl:h-[70px] h-12">
+                                    <img src="theme/frontend/images/statis-1.png" alt="icon">
+                                </span>
+                                <p class="text text-center sm:text-left uppercase sm:text-[0.875rem] font-semibold">Nhà máy sản xuất
+                                    đạt chuẩn gmP</p>
+                            </div>
+                        </div>
+                        <div class="col-span-1 wow fadeInUp" data-wow-delay="0.2s">
+                            <div class="item-statis block sm:flex items-end">
+                                <span class="icon block mx-auto mb-2 sm:mb-0 shrink-0 sm:mr-4 2xl:w-[70px] w-12 2xl:h-[70px] h-12">
+                                    <img src="theme/frontend/images/statis-2.png" alt="icon">
+                                </span>
+                                <p class="text uppercase text-center sm:text-left sm:text-[0.875rem] font-semibold">đội ngũ nhân sự
+                                    có chuyên môn cao</p>
+                            </div>
+                        </div>
+                        <div class="col-span-1 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="item-statis block sm:flex items-end">
+                                <span class="icon block mx-auto mb-2 sm:mb-0 shrink-0 sm:mr-4 2xl:w-[70px] w-12 2xl:h-[70px] h-12">
+                                    <img src="theme/frontend/images/statis-3.png" alt="icon">
+                                </span>
+                                <p class="text uppercase text-center sm:text-left sm:text-[0.875rem] font-semibold">sản phẩm đa dạng
+                                    đạt chuẩn quốc tế</p>
+                            </div>
+                        </div>
+                        <div class="col-span-1 wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="item-statis block sm:flex items-end">
+                                <span class="icon block mx-auto shrink-0 mb-2 sm:mb-0 sm:mr-4 2xl:w-[70px] w-12 2xl:h-[70px] h-12">
+                                    <img src="theme/frontend/images/statis-4.png" alt="icon">
+                                </span>
+                                <p class="text uppercase text-center sm:text-left sm:text-[0.875rem] font-semibold">hơn 5000 khách hàng
+                                    thân thiết</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="section-all section-why lg:py-8 py-5">
+            <div class="container">
+                <p
+                    class="subtitle text-center 2xl:text-[0.875rem] text-[0.75rem] uppercase text-[#E4B565] mb-1 tracking-[0.2em] font-bold">
+                    ưu điểm của gaha</p>
+                <h3 class="title-all text-center 2xl:mb-10 mb-4">Tại sao nên gia công tại Gaha?</h3>
+                <div class="module-why flex flex-nowrap sm:grid grid-cols-2 2xl:gap-12 lg:gap-6 sm:gap-3 gap-2">
+                    <div class="col-span-1 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="item-why block lg:flex">
+                            <div class="img-ct basis-1/2 mr-0 lg:mr-4 mb-2 lg:mb-0">
+                                <span class="img c-img img__ block">
+                                    <img src="theme/frontend/images/img-why.jpg" alt="">
+                                </span>
+                            </div>
+                            <div class="flex-1">
+                                <p class="name font-semibold mb-4 text-[#00B414] 2xl:text-[1.5rem] text-[1rem]">Nhà máy
+                                    sản xuất</p>
+                                <div class="s-content s-ct-why">
+                                    <ul>
+                                        <li>Vận hành theo tiêu chuẩn cGMP</li>
+                                        <li>Quy mô nhà máy trên 3000 mét vuông</li>
+                                        <li>Công suất lên đến 10.000 sản phẩm/giờ</li>
+                                        <li>Cơ sở vật chất, trang thiết bị hiện đại</li>
+                                        <li>Dây chuyền sản xuất tự động hóa</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-span-1 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="item-why block lg:flex">
+                            <div class="img-ct basis-1/2 mr-0 lg:mr-4 mb-2 lg:mb-0">
+                                <span class="img c-img img__ block">
+                                    <img src="theme/frontend/images/img-why.jpg" alt="">
+                                </span>
+                            </div>
+                            <div class="flex-1">
+                                <p class="name font-semibold mb-4 text-[#00B414] 2xl:text-[1.5rem] text-[1rem]">Nhà máy
+                                    sản xuất</p>
+                                <div class="s-content s-ct-why">
+                                    <ul>
+                                        <li>Vận hành theo tiêu chuẩn cGMP</li>
+                                        <li>Quy mô nhà máy trên 3000 mét vuông</li>
+                                        <li>Công suất lên đến 10.000 sản phẩm/giờ</li>
+                                        <li>Cơ sở vật chất, trang thiết bị hiện đại</li>
+                                        <li>Dây chuyền sản xuất tự động hóa</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-span-1 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="item-why block lg:flex">
+                            <div class="img-ct basis-1/2 mr-0 lg:mr-4 mb-2 lg:mb-0">
+                                <span class="img c-img img__ block">
+                                    <img src="theme/frontend/images/img-why.jpg" alt="">
+                                </span>
+                            </div>
+                            <div class="flex-1">
+                                <p class="name font-semibold mb-4 text-[#00B414] 2xl:text-[1.5rem] text-[1rem]">Nhà máy
+                                    sản xuất</p>
+                                <div class="s-content s-ct-why">
+                                    <ul>
+                                        <li>Vận hành theo tiêu chuẩn cGMP</li>
+                                        <li>Quy mô nhà máy trên 3000 mét vuông</li>
+                                        <li>Công suất lên đến 10.000 sản phẩm/giờ</li>
+                                        <li>Cơ sở vật chất, trang thiết bị hiện đại</li>
+                                        <li>Dây chuyền sản xuất tự động hóa</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-span-1 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="item-why block lg:flex">
+                            <div class="img-ct basis-1/2 mr-0 lg:mr-4 mb-2 lg:mb-0">
+                                <span class="img c-img img__ block">
+                                    <img src="theme/frontend/images/img-why.jpg" alt="">
+                                </span>
+                            </div>
+                            <div class="flex-1">
+                                <p class="name font-semibold mb-4 text-[#00B414] 2xl:text-[1.5rem] text-[1rem]">Nhà máy
+                                    sản xuất</p>
+                                <div class="s-content s-ct-why">
+                                    <ul>
+                                        <li>Vận hành theo tiêu chuẩn cGMP</li>
+                                        <li>Quy mô nhà máy trên 3000 mét vuông</li>
+                                        <li>Công suất lên đến 10.000 sản phẩm/giờ</li>
+                                        <li>Cơ sở vật chất, trang thiết bị hiện đại</li>
+                                        <li>Dây chuyền sản xuất tự động hóa</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-all section-production lg:py-8 py-5">
+            <div class="container">
+                <p
+                    class="subtitle text-center 2xl:text-[0.875rem] text-[0.75rem] uppercase text-[#E4B565] mb-1 tracking-[0.2em] font-bold wow fadeInUp">
+                    Dây chuyền sản xuất</p>
+                <h3 class="title-all text-center 2xl:mb-10 mb-4 wow fadeInUp">Các sản phẩm của GAHA đều được sản xuất
+                    <br> qua dây
+                    chuyền đã được kiểm định</h3>
+                <div class="boxslide relative">
+                    <div class="swiper-container slide-production">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="item-production">
+                                    <a href="#" title=""
+                                        class="img img__ c-img mb-2 block rounded-[10px] overflow-hidden">
+                                        <img src="theme/frontend/images/production.jpg" alt="">
+                                    </a>
+                                    <a href="#" title="Dây chuyền sản xuất Mỹ phẩm"
+                                        class="title text-center block font-semibold text-[#252525]">
+                                        Dây chuyền sản xuất Mỹ phẩm
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="item-production">
+                                    <a href="#" title=""
+                                        class="img img__ c-img mb-2 block rounded-[10px] overflow-hidden">
+                                        <img src="theme/frontend/images/production.jpg" alt="">
+                                    </a>
+                                    <a href="#" title="Dây chuyền sản xuất Mỹ phẩm"
+                                        class="title text-center block font-semibold text-[#252525]">
+                                        Dây chuyền sản xuất Mỹ phẩm
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="item-production">
+                                    <a href="#" title=""
+                                        class="img img__ c-img mb-2 block rounded-[10px] overflow-hidden">
+                                        <img src="theme/frontend/images/production.jpg" alt="">
+                                    </a>
+                                    <a href="#" title="Dây chuyền sản xuất Mỹ phẩm"
+                                        class="title text-center block font-semibold text-[#252525]">
+                                        Dây chuyền sản xuất Mỹ phẩm
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="item-production">
+                                    <a href="#" title=""
+                                        class="img img__ c-img mb-2 block rounded-[10px] overflow-hidden">
+                                        <img src="theme/frontend/images/production.jpg" alt="">
+                                    </a>
+                                    <a href="#" title="Dây chuyền sản xuất Mỹ phẩm"
+                                        class="title text-center block font-semibold text-[#252525]">
+                                        Dây chuyền sản xuất Mỹ phẩm
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pagination-all pagination-production"></div>
+                    </div>
+                    <div class="swiper-button__all swiper-button__prev production-prev">
+                        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.4375 12.0056H5.4375" stroke="#F1CF81" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M12.4375 19.0056L5.4375 12.0056L12.4375 5.00562" stroke="#F1CF81" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+
+                    </div>
+                    <div class="swiper-button__all swiper-button__next production-next">
+
+                        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5.41211 12.0056H19.4121" stroke="url(#paint0_linear_2_3583)" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M12.4121 19.0056L19.4121 12.0056L12.4121 5.00562"
+                                stroke="url(#paint1_linear_2_3583)" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <defs>
+                                <linearGradient id="paint0_linear_2_3583" x1="19.4121" y1="12.0056" x2="10.6696"
+                                    y2="19.3037" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#F1CF81" />
+                                    <stop offset="1" stop-color="#DEA757" />
+                                </linearGradient>
+                                <linearGradient id="paint1_linear_2_3583" x1="19.4121" y1="5.00562" x2="12.0013"
+                                    y2="5.22656" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#F1CF81" />
+                                    <stop offset="1" stop-color="#DEA757" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-all product_index lg:py-8 py-5">
+            <div class="container">
+                <p
+                    class="subtitle text-center 2xl:text-[0.875rem] text-[0.75rem] uppercase text-[#E4B565] mb-1 tracking-[0.2em] font-bold">
+                    Sản xuất</p>
+                <h3 class="title-all text-center 2xl:mb-10 mb-4">Sản phẩm hàng đầu của chúng tôi</h3>
+                <div class="swiper-container slide-pro__index wow fadeInUp">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="item-pro__cate">
+                                <a href="#" title="" class="img img__ block c-img rounded-[10px] overflow-hidden mb-2">
+                                    <img src="theme/frontend/images/img-prd.jpg" alt="">
+                                </a>
+                                <h3>
+                                    <a href="#" title=""
+                                        class="title text-center block font-semibold text-[#252525] uppercase">
+                                        SỮA TẮM
+                                    </a>
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="item-pro__cate">
+                                <a href="#" title="" class="img img__ block c-img rounded-[10px] overflow-hidden mb-2">
+                                    <img src="theme/frontend/images/img-prd.jpg" alt="">
+                                </a>
+                                <h3>
+                                    <a href="#" title=""
+                                        class="title text-center block font-semibold text-[#252525] uppercase">
+                                        SỮA TẮM
+                                    </a>
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="item-pro__cate">
+                                <a href="#" title="" class="img img__ block c-img rounded-[10px] overflow-hidden mb-2">
+                                    <img src="theme/frontend/images/img-prd.jpg" alt="">
+                                </a>
+                                <h3>
+                                    <a href="#" title=""
+                                        class="title text-center block font-semibold text-[#252525] uppercase">
+                                        SỮA TẮM
+                                    </a>
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="item-pro__cate">
+                                <a href="#" title="" class="img img__ block c-img rounded-[10px] overflow-hidden mb-2">
+                                    <img src="theme/frontend/images/img-prd.jpg" alt="">
+                                </a>
+                                <h3>
+                                    <a href="#" title=""
+                                        class="title text-center block font-semibold text-[#252525] uppercase">
+                                        SỮA TẮM
+                                    </a>
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="item-pro__cate">
+                                <a href="#" title="" class="img img__ block c-img rounded-[10px] overflow-hidden mb-2">
+                                    <img src="theme/frontend/images/img-prd.jpg" alt="">
+                                </a>
+                                <h3>
+                                    <a href="#" title=""
+                                        class="title text-center block font-semibold text-[#252525] uppercase">
+                                        SỮA TẮM
+                                    </a>
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="item-pro__cate">
+                                <a href="#" title="" class="img img__ block c-img rounded-[10px] overflow-hidden mb-2">
+                                    <img src="theme/frontend/images/img-prd.jpg" alt="">
+                                </a>
+                                <h3>
+                                    <a href="#" title=""
+                                        class="title text-center block font-semibold text-[#252525] uppercase">
+                                        SỮA TẮM
+                                    </a>
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="item-pro__cate">
+                                <a href="#" title="" class="img img__ block c-img rounded-[10px] overflow-hidden mb-2">
+                                    <img src="theme/frontend/images/img-prd.jpg" alt="">
+                                </a>
+                                <h3>
+                                    <a href="#" title=""
+                                        class="title text-center block font-semibold text-[#252525] uppercase">
+                                        SỮA TẮM
+                                    </a>
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="item-pro__cate">
+                                <a href="#" title="" class="img img__ block c-img rounded-[10px] overflow-hidden mb-2">
+                                    <img src="theme/frontend/images/img-prd.jpg" alt="">
+                                </a>
+                                <h3>
+                                    <a href="#" title=""
+                                        class="title text-center block font-semibold text-[#252525] uppercase">
+                                        SỮA TẮM
+                                    </a>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pagination-all pagination-product"></div>
+
+                </div>
+            </div>
+        </section>
+        <section class="section-all service_index lg:py-20 py-5 bg-no-repeat bg-cover"
+            style="background-image: url(theme/frontend/images/bg-service.jpg);">
+            <div class="container">
+                <p
+                    class="subtitle text-center 2xl:text-[0.875rem] text-[0.75rem] uppercase text-[#E4B565] mb-1 tracking-[0.2em] font-bold wow fadeInUp">
+                    Dịch vụ</p>
+                <h3 class="title-all text-center 2xl:mb-8 mb-4 wow fadeInUp">dịch vụ của CHÚNG TÔI LUÔN LÀM <br> KHÁCH
+                    HÀNG HÀI LÒNG
+                </h3>
+                <div class="boxslide relative wow fadeInUp">
+                    <div class="swiper-container slide-service">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide h-auto">
+                                <div
+                                    class="item-service p-2 h-full flex flex-col text-center bg-white rounded-[10px] overflow-hidden">
+                                    <a href="#" title="" class="img img__ c-img block rounded-[5px] 2xl:mb-6 mb-2">
+                                        <img src="theme/frontend/images/img-service.jpg" alt="">
+                                    </a>
+                                    <h3>
+                                        <a href="#" title=""
+                                            class="title font-semibold uppercase lg:mb-4 mb-2 block text-[#252525]">Nghiên
+                                            cứu
+                                            xây dựng
+                                            công thức sản phẩm</a>
+                                    </h3>
+                                    <div class="short_content lg:mb-4 mb-2">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et tincidunt duis
+                                        lectus viverra. Turpis in ut posuere eu duis lectus suspendisse ridiculus nunc
+                                        viverra.
+                                    </div>
+                                    <a href="#" title="Xem chi tiết"
+                                        class="read-more mt-auto text-[0.875rem] text-[#DEA757] font-semibold flex w-fit mx-auto items-center">
+                                        Xem chi tiết <img src="theme/frontend/images/arrow-right-sm.svg" alt="arrow">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide h-auto">
+                                <div
+                                    class="item-service p-2 h-full flex flex-col text-center bg-white rounded-[10px] overflow-hidden">
+                                    <a href="#" title="" class="img img__ c-img block rounded-[5px] 2xl:mb-6 mb-2">
+                                        <img src="theme/frontend/images/img-service.jpg" alt="">
+                                    </a>
+                                    <h3>
+                                        <a href="#" title=""
+                                            class="title font-semibold uppercase lg:mb-4 mb-2 block text-[#252525]">Nghiên
+                                            cứu
+                                            xây dựng
+                                            công thức sản phẩm</a>
+                                    </h3>
+                                    <div class="short_content lg:mb-4 mb-2">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et tincidunt duis
+                                        lectus viverra. Turpis in ut posuere eu duis lectus suspendisse ridiculus nunc
+                                        viverra.
+                                    </div>
+                                    <a href="#" title="Xem chi tiết"
+                                        class="read-more mt-auto text-[0.875rem] text-[#DEA757] font-semibold flex w-fit mx-auto items-center">
+                                        Xem chi tiết <img src="theme/frontend/images/arrow-right-sm.svg" alt="arrow">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide h-auto">
+                                <div
+                                    class="item-service p-2 h-full flex flex-col text-center bg-white rounded-[10px] overflow-hidden">
+                                    <a href="#" title="" class="img img__ c-img block rounded-[5px] 2xl:mb-6 mb-2">
+                                        <img src="theme/frontend/images/img-service.jpg" alt="">
+                                    </a>
+                                    <h3>
+                                        <a href="#" title=""
+                                            class="title font-semibold uppercase lg:mb-4 mb-2 block text-[#252525]">Nghiên
+                                            cứu
+                                            xây dựng
+                                            công thức sản phẩm</a>
+                                    </h3>
+                                    <div class="short_content lg:mb-4 mb-2">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et tincidunt duis
+                                        lectus viverra. Turpis in ut posuere eu duis lectus suspendisse ridiculus nunc
+                                        viverra.
+                                    </div>
+                                    <a href="#" title="Xem chi tiết"
+                                        class="read-more mt-auto text-[0.875rem] text-[#DEA757] font-semibold flex w-fit mx-auto items-center">
+                                        Xem chi tiết <img src="theme/frontend/images/arrow-right-sm.svg" alt="arrow">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide h-auto">
+                                <div
+                                    class="item-service p-2 h-full flex flex-col text-center bg-white rounded-[10px] overflow-hidden">
+                                    <a href="#" title="" class="img img__ c-img block rounded-[5px] 2xl:mb-6 mb-2">
+                                        <img src="theme/frontend/images/img-service.jpg" alt="">
+                                    </a>
+                                    <h3>
+                                        <a href="#" title=""
+                                            class="title font-semibold uppercase lg:mb-4 mb-2 block text-[#252525]">Nghiên
+                                            cứu
+                                            xây dựng
+                                            công thức sản phẩm</a>
+                                    </h3>
+                                    <div class="short_content lg:mb-4 mb-2">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et tincidunt duis
+                                        lectus viverra. Turpis in ut posuere eu duis lectus suspendisse ridiculus nunc
+                                        viverra.
+                                    </div>
+                                    <a href="#" title="Xem chi tiết"
+                                        class="read-more mt-auto text-[0.875rem] text-[#DEA757] font-semibold flex w-fit mx-auto items-center">
+                                        Xem chi tiết <img src="theme/frontend/images/arrow-right-sm.svg" alt="arrow">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button__all swiper-button__prev service-prev">
+                        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.4375 12.0056H5.4375" stroke="#F1CF81" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M12.4375 19.0056L5.4375 12.0056L12.4375 5.00562" stroke="#F1CF81" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+
+                    </div>
+                    <div class="swiper-button__all swiper-button__next service-next">
+
+                        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5.41211 12.0056H19.4121" stroke="url(#paint0_linear_2_3583)" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M12.4121 19.0056L19.4121 12.0056L12.4121 5.00562"
+                                stroke="url(#paint1_linear_2_3583)" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <defs>
+                                <linearGradient id="paint0_linear_2_3583" x1="19.4121" y1="12.0056" x2="10.6696"
+                                    y2="19.3037" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#F1CF81" />
+                                    <stop offset="1" stop-color="#DEA757" />
+                                </linearGradient>
+                                <linearGradient id="paint1_linear_2_3583" x1="19.4121" y1="5.00562" x2="12.0013"
+                                    y2="5.22656" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#F1CF81" />
+                                    <stop offset="1" stop-color="#DEA757" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-all section-procedure lg:py-8 py-5">
+            <div class="container">
+                <p
+                    class="subtitle text-center 2xl:text-[0.875rem] text-[0.75rem] uppercase text-[#E4B565] mb-1 tracking-[0.2em] font-bold wow fadeInUp">
+                    Quy trình sản suẩt</p>
+                <h3 class="title-all text-center 2xl:mb-8 mb-4 wow fadeInUp">Quy trình sản xuất của gaha
+                </h3>
+                <!-- Ảnh desktop -->
+                <div class="img_full hidden lg:block img-procedure wow fadeInUp">
+                    <img src="theme/frontend/images/quy-trinh.png" alt="">
+                </div>
+                <!-- End desktop -->
+                <!-- Ảnh mobile -->
+                <div class="img_full block lg:hidden img-procedure wow fadeInUp">
+                    <img src="theme/frontend/images/quy-trinh-mb.jpg" alt="">
+                </div>
+                <!-- End mobile -->
+            </div>
+        </section>
+        <section class="section-all section-new 2xl:pb-20 lg:py-8 py-5">
+            <div class="container">
+                <p
+                    class="subtitle text-center 2xl:text-[0.875rem] text-[0.75rem] uppercase text-[#E4B565] mb-1 tracking-[0.2em] font-bold">
+                    tin tức, sự kiện</p>
+                <h3 class="title-all text-center 2xl:mb-10 mb-4">Tin tức MỚI NHẤT</h3>
+                <div class="grid grid-cols-2 lg:grid-cols-3 lg:gap-6 sm:gap-3 gap-2">
+                    <div class="col-span-2 lg:col-span-1 wow fadeInLeft">
+                        <div
+                            class="new-main relative rounded-[10px] overflow-hidden after:w-full after:h-1/2 after:absolute after:bottom-0 after:left-0">
+                            <a href="#" title="" class="img img__ block c-img">
+                                <img src="theme/frontend/images/new-main.jpg" alt="">
+                            </a>
+                            <div class="new-content 2xl:p-6 lg:p-4 p-2 absolute bottom-0 left-0 w-full h-auto z-[1]">
+                                <ul class="time-new__all lg:text-[0.875rem] text-white mb-2">
+                                    <li>24/06/2022</li>
+                                    <li>Tin nội bộ</li>
+                                </ul>
+                                <h3>
+                                    <a href="#" title="" class="title font-semibold text-white block">
+                                        11 Công thức trị thâm mụn hiệu quả trong 7 ngày
+                                    </a>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-span-2 wow fadeInRight">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 lg:gap-6 sm:gap-3 gap-2">
+                            <div class="col-span-1">
+                                <div class="item-new__small flex items-center">
+                                    <div class="img-new shrink-0 2xl:w-[140px] lg:w-[130px] w-[100px] mr-4">
+                                        <a href="#" title="" class="img img__ block c-img rounded-[10px]">
+                                            <img src="theme/frontend/images/new-small.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="flex-1">
+                                        <ul class="time-new__all text-[#888] lg:text-[0.875rem] mb-2">
+                                            <li>24/06/2022</li>
+                                            <li>Tin nội bộ</li>
+                                        </ul>
+                                        <h3>
+                                            <a href="#" title="" class="title font-semibold text-[#252525] mb-2">
+                                                11 Công thức trị thâm mụn hiệu quả trong 7 ngày
+                                            </a>
+                                        </h3>
+                                        <div class="short_content text-[0.875rem]">
+                                            Cơ thể dễ mất nước, có thể làm xuất hiện các tình trạng: nóng trong, táo
+                                            báo, ...
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-span-1">
+                                <div class="item-new__small flex items-center">
+                                    <div class="img-new shrink-0 2xl:w-[140px] lg:w-[130px] w-[100px] mr-4">
+                                        <a href="#" title="" class="img img__ block c-img rounded-[10px]">
+                                            <img src="theme/frontend/images/new-small.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="flex-1">
+                                        <ul class="time-new__all text-[#888] lg:text-[0.875rem] mb-2">
+                                            <li>24/06/2022</li>
+                                            <li>Tin nội bộ</li>
+                                        </ul>
+                                        <h3>
+                                            <a href="#" title="" class="title font-semibold text-[#252525] mb-2">
+                                                11 Công thức trị thâm mụn hiệu quả trong 7 ngày
+                                            </a>
+                                        </h3>
+                                        <div class="short_content text-[0.875rem]">
+                                            Cơ thể dễ mất nước, có thể làm xuất hiện các tình trạng: nóng trong, táo
+                                            báo, ...
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-span-1">
+                                <div class="item-new__small flex items-center">
+                                    <div class="img-new shrink-0 2xl:w-[140px] lg:w-[130px] w-[100px] mr-4">
+                                        <a href="#" title="" class="img img__ block c-img rounded-[10px]">
+                                            <img src="theme/frontend/images/new-small.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="flex-1">
+                                        <ul class="time-new__all text-[#888] lg:text-[0.875rem] mb-2">
+                                            <li>24/06/2022</li>
+                                            <li>Tin nội bộ</li>
+                                        </ul>
+                                        <h3>
+                                            <a href="#" title="" class="title font-semibold text-[#252525] mb-2">
+                                                11 Công thức trị thâm mụn hiệu quả trong 7 ngày
+                                            </a>
+                                        </h3>
+                                        <div class="short_content text-[0.875rem]">
+                                            Cơ thể dễ mất nước, có thể làm xuất hiện các tình trạng: nóng trong, táo
+                                            báo, ...
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-span-1">
+                                <div class="item-new__small flex items-center">
+                                    <div class="img-new shrink-0 2xl:w-[140px] lg:w-[130px] w-[100px] mr-4">
+                                        <a href="#" title="" class="img img__ block c-img rounded-[10px]">
+                                            <img src="theme/frontend/images/new-small.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="flex-1">
+                                        <ul class="time-new__all text-[#888] lg:text-[0.875rem] mb-2">
+                                            <li>24/06/2022</li>
+                                            <li>Tin nội bộ</li>
+                                        </ul>
+                                        <h3>
+                                            <a href="#" title="" class="title font-semibold text-[#252525] mb-2">
+                                                11 Công thức trị thâm mụn hiệu quả trong 7 ngày
+                                            </a>
+                                        </h3>
+                                        <div class="short_content text-[0.875rem]">
+                                            Cơ thể dễ mất nước, có thể làm xuất hiện các tình trạng: nóng trong, táo
+                                            báo, ...
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer relative">
+            <div class="footer-top bg-no-repeat bg-cover lg:pt-12 lg:pb-36 py-5"
+                style="background-image: url(theme/frontend/images/bg-footer.jpg);">
+                <div class="container">
+                    <div class="block lg:grid grid-cols-12 lg:gap-x-6 gap-x-3 2xl:mb-10 lg:mb-6 mb-4">
+                        <div class="col-span-5 mb-4 lg:mb-0">
+                            <a href="" title="" class="logo-footer">
+                                <img src="theme/frontend/images/logo-footer.png" alt="logo">
+                            </a>
+                            <p
+                                class="title-footer font-semibold uppercase text-white lg:text-[1.125rem] text-[1rem] relative lg:mb-8 mb-4">
+                                CÔNG TY TNHH GAHA</p>
+                            <ul class="list-contact text-white">
+                                <li class="mb-3 last:mb-0">
+                                    <img src="theme/frontend/images/address.svg" alt="icon"
+                                        class="address inline-block mr-2">
+                                    <span class="font-semibold">Địa chỉ:</span>
+                                    Số 12, LK 8, Khu liền kề Văn Khê, Hà Đông, Hà Nội
+                                </li>
+                                <li class="mb-3 last:mb-0">
+                                    <img src="theme/frontend/images/ecology.svg" alt="icon"
+                                        class="address inline-block mr-2">
+                                    <span class="font-semibold">Nhà máy:</span>
+                                    Quốc lộ 21 Thị trấn Yên Định, Nam Định
+                                </li>
+                                <li class="mb-3 last:mb-0">
+                                    <img src="theme/frontend/images/hotline.svg" alt="icon"
+                                        class="address inline-block mr-2">
+                                    <span class="font-semibold">Hotline:</span>
+                                    0988 666 888 - 0911 123 123
+                                </li>
+                                <li class="mb-3 last:mb-0">
+                                    <img src="theme/frontend/images/mail.svg" alt="icon"
+                                        class="address inline-block mr-2">
+                                    <span class="font-semibold">Email:</span>
+                                    support.gaha@gmail.com
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-span-7">
+                            <div class="grid grid-cols-2 sm:grid-cols-3 lg:gap-6 gap-4">
+                                <div class="col-span-1">
+                                    <p
+                                        class="title-footer font-semibold uppercase text-white lg:text-[1.125rem] text-[1rem] relative lg:mb-8 mb-4">
+                                        Link nhanh</p>
+                                    <div class="nav-footer">
+                                        <ul>
+                                            <li><a href="#" title="">Giới thiệu</a></li>
+                                            <li><a href="#" title="">Sản phẩm</a></li>
+                                            <li><a href="#" title="">Dịch vụ</a></li>
+                                            <li><a href="#" title="">Tin tức</a></li>
+                                            <li><a href="#" title="">Liên hệ</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-span-1">
+                                    <p
+                                        class="title-footer font-semibold uppercase text-white lg:text-[1.125rem] text-[1rem] relative lg:mb-8 mb-4">
+                                        Sản phẩm</p>
+                                    <div class="nav-footer">
+                                        <ul>
+                                            <li><a href="#" title="">Dung dịch dưỡng da</a></li>
+                                            <li><a href="#" title="">Dung dịch dưỡng da</a></li>
+                                            <li><a href="#" title="">Dung dịch dưỡng da</a></li>
+                                            <li><a href="#" title="">Dung dịch dưỡng da</a></li>
+                                            <li><a href="#" title="">Dung dịch dưỡng da</a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-span-1">
+                                    <p
+                                        class="title-footer font-semibold uppercase text-white lg:text-[1.125rem] text-[1rem] relative lg:mb-8 mb-4">
+                                        Dịch vụ</p>
+                                    <div class="nav-footer">
+                                        <ul>
+                                            <li><a href="#" title="">Gia công mỹ phẩm</a></li>
+                                            <li><a href="#" title="">Gia công mỹ phẩm</a></li>
+                                            <li><a href="#" title="">Gia công mỹ phẩm</a></li>
+                                            <li><a href="#" title="">Gia công mỹ phẩm</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-2 lg:grid-cols-3 2xl:gap-11 lg:gap-6 gap-4">
+                        <div class="col-span-1">
+                            <a href="#" title="Facebook" target="_blank"
+                                class="social-footer bg-white py-2 px-4 rounded-[10px] inline-block w-full text-center">
+                                <img src="theme/frontend/images/facebook.svg" alt="fb"
+                                    class="icon-social mr-2 inline-block">
+                                <span class="font-semibold text-[#22333C] title">Facebook</span>
+                                <span class="text-[#888] hidden sm:inline-block">Truy cập vào fanpage Gaha <img
+                                        src="theme/frontend/images/right-gray.svg" class="inline-block" alt=""></span>
+                            </a>
+                        </div>
+                        <div class="col-span-1">
+                            <a href="#" title="Facebook" target="_blank"
+                                class="social-footer bg-white py-2 px-4 rounded-[10px] inline-block w-full text-center">
+                                <img src="theme/frontend/images/youtube.svg" alt="yt"
+                                    class="icon-social mr-2 inline-block">
+                                <span class="font-semibold text-[#22333C] title">Youtube</span>
+                                <span class="text-[#888] hidden sm:inline-block">Truy cập vào kênh Youtube <img
+                                        src="theme/frontend/images/right-gray.svg" class="inline-block" alt=""></span>
+                            </a>
+                        </div>
+                        <div class="col-span-2 lg:col-span-1">
+                            <form action="" method=""
+                                class="form-footer relative bg-white rounded-[10px] overflow-hidden">
+                                <input type="text" name="" value="" placeholder="Nhập Email để nhận ưu đãi mới nhất..."
+                                    class="form-control pr-[70px]">
+                                <button
+                                    class="btn-submit bg-[#22333C] inline-flex items-center justify-center text-white h-full w-16 absolute top-0 right-0 hover:bg-[#F1CF81] transition-all duration-300"
+                                    type="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom py-4 bg-[#F7E2B1]">
+                <div class="container flex items-center justify-center sm:justify-between">
+                    <p class="copy-right">Copyright © 2022 GAHA. Designed and developed by Tech5S</p>
+                    <a href="#" title="" class="link hidden sm:block">
+                        <img src="theme/frontend/images/dmca.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <ul class="widget fixed ">
+        <li><a href="#" title="hotline"><img src="theme/frontend/images/wg-hotline.svg" alt=""></a></li>
+        <li><a href="#" title="mess"><img src="theme/frontend/images/mess.svg" alt=""></a></li>
+        <li><a href="#" title="zalo"><img src="theme/frontend/images/zalo.svg" alt=""></a></li>
+        <li><a href="#" class="back-to-top" title="back-top"><img src="theme/frontend/images/back-top.svg" alt=""></a></li>
+
+    </ul>
+
+
+
+    <script src="theme/frontend/tech5s_js/tech5s_base.min.js" defer></script>
+    <script src="theme/frontend/tech5s_js/libraries/Tech.js" defer></script>
+    <script src="theme/frontend/tech5s_js/libraries/BackToTop.js" defer></script>
+    <script src="theme/frontend/js/wow.min.js" defer></script>
+    <script src="theme/frontend/js/fslightbox.js" defer></script>
+    <script src="theme/frontend/js/swiper-bundle.min.js" defer></script>
+    <script src="theme/frontend/js/slider.js" defer></script>
+    <script src="theme/frontend/js/script.js" defer></script>
+
+</body>
+
+</html>

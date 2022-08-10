@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaha</title>
+    <link href="theme/frontend/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+    <link href="theme/frontend/css/swiper-bundle.min.css" type="text/css" rel="stylesheet">
+    <link href="theme/frontend/css/animate.min.css" type="text/css" rel="stylesheet">
+    <link href="theme/frontend/css/lightbox.css" type="text/css" rel="stylesheet">
+    <link href="theme/frontend/css/main.css" type="text/css" rel="stylesheet">
+    <link href="./output.css" type="text/css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div
+        class="wrapper mx-auto 2xl:text-[16px] sm:text-[14px] text-[12px] text-[#333] leading-snug overflow-x-hidden font-[OpenSans]">
+        <div class="header">
+            <h1 class="hidden">gaha</h1>
+            <div class="header-top bg-[#F7E2B1] py-2 hidden lg:block">
+                <div class="container flex items-center justify-between">
+                    <ul class="h-contact text-[0.875rem] text-[#252525]">
+                        <li class="inline-block mr-6 last:mr-0">
+                            E-mail: <a href="mailto:support@gaha.vn" class="link">support@gaha.vn</a>
+                        </li>
+                        <li class="inline-block mr-6 last:mr-0">
+                            Phone: <a href="tel:+(84) 09 1234 4567" class="link">+(84) 09 1234 4567</a>
+                        </li>
+                    </ul>
+                    <div class="h-top__right flex items-center">
+                        <ul class="h-social text-[0.875rem]">
+                            <li class="inline-block mr-4 last:mr-0">Follow us:</li>
+                            <li class="inline-block mr-4 last:mr-0">
+                                <a href="#" title="Facebook" target="_blank" class="text-[#252525] text-[1.25rem]"><i
+                                        class="fa fa-facebook" aria-hidden="true"></i></a>
+                            </li>
+                            <li class="inline-block mr-4 last:mr-0">
+                                <a href="#" title="Youtube" target="_blank" class="text-[#252525] text-[1.25rem]"><i
+                                        class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                            </li>
+                            <li class="inline-block mr-4 last:mr-0">
+                                <a href="#" title="Instagram" target="_blank" class="text-[#252525] text-[1.25rem]"><i
+                                        class="fa fa-instagram" aria-hidden="true"></i></a>
+                            </li>
+                        </ul>
+                        <div class="h-lang text-[0.875rem] relative flex items-center ml-12 cursor-pointer">
+                            Language: <span class="flag mx-1"><img src="theme/frontend/images/VN.png" alt="vn"></span>
+                            <i class="fa fa-caret-down" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-nav py-2 bg-white border-b-[1px] border-solid border-[#ebebeb]">
+                <div class="container">
+                    <div class="flex justify-between lg:grid grid-cols-12 gap-2 items-center">
+                        <div class="col-span-1">
+                            <a href="" title="Trang chủ" class="h-logo">
+                                <img src="theme/frontend/images/logo-header.png" alt="logo">
+                            </a>
+                        </div>
+                        <div class="col-span-9">
+                            <div class="menu">
+                                <a href="" title="" class="logo-mobile block lg:hidden text-center py-4">
+                                    <img src="theme/frontend/images/logo-header.png" alt="logo">
+                                </a>
+                                <div class="lang-mobile block lg:hidden text-center py-4">
+                                    <a href="#" title="" class="link active">Tiếng việt</a>
+                                    <a href="#" title="" class="link ">Tiếng anh</a>
+
+                                </div>
+                                <ul>
+                                    <li><a href="./index.html" title="">Trang chủ</a></li>
+                                    <li><a href="./gioi-thieu.html" title="">Giới thiệu</a></li>
+                                    <li><a href="./dich-vu.html" title="">Dịch vụ</a></li>
+                                    <li><a href="./san-pham.html" title="">Sản phẩm</a>
+                                        <ul>
+                                            <li><a href="#" title="">Chăm sóc da</a></li>
+                                            <li><a href="#" title="">Chống nắng</a></li>
+                                            <li><a href="#" title="">Cấp ẩm</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="./tin-tuc.html" title="">Tin tức</a></li>
+                                    <li><a href="./lien-he.html" title="">Liên hệ</a></li>
+                                </ul>
+                            </div>
+                            <div class="over-lay block lg:hidden"></div>
+                        </div>
+                        <div class="col-span-2 flex lg:block items-center">
+                            <form action="" method="" class="h-search relative overflow-hidden hidden lg:block">
+                                <input type="text" name="" value="" placeholder="Search..."
+                                    class="fom-control text-[#E4A40B] bg-[#FFFBF1] placeholder:text-[#E4A40B] h-11 w-full py-2 px-4 rounded-[2.5rem] border-[1px] border-solid border-[#E4A40B] pr-12">
+                                <button
+                                    class="btn-search absolute top-1/2 -translate-y-1/2 right-0 z-[1] inline-flex items-center justify-center w-11 h-[42px] rounded-full border-[1px] border-solid border-[#E4A40B] bg-[#FFFBF1]"><img
+                                        src="theme/frontend/images/icon-search.svg" class="w-5 h-5 object-contain "
+                                        alt="search"></button>
+                            </form>
+                            <span
+                                class="btn-search  inline-flex lg:hidden items-center justify-center w-11 h-[42px] rounded-full border-[1px] border-solid border-[#E4A40B] bg-[#FFFBF1] show-form-search"><img
+                                    src="theme/frontend/images/icon-search.svg" class="w-5 h-5 object-contain"
+                                    alt="search"></span>
+                            <span class="show-menu-mobile block lg:hidden ml-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"
+                                    width="35" height="35" x="0" y="0" viewBox="0 0 384.97 384.97"
+                                    style="enable-background:new 0 0 35 35" xml:space="preserve" class="">
+                                    <g>
+                                        <g xmlns="http://www.w3.org/2000/svg">
+                                            <g id="Menu_1_">
+                                                <path
+                                                    d="M12.03,120.303h360.909c6.641,0,12.03-5.39,12.03-12.03c0-6.641-5.39-12.03-12.03-12.03H12.03    c-6.641,0-12.03,5.39-12.03,12.03C0,114.913,5.39,120.303,12.03,120.303z"
+                                                    fill="#e4a40b" data-original="#000000" class=""></path>
+                                                <path
+                                                    d="M372.939,180.455H12.03c-6.641,0-12.03,5.39-12.03,12.03s5.39,12.03,12.03,12.03h360.909c6.641,0,12.03-5.39,12.03-12.03    S379.58,180.455,372.939,180.455z"
+                                                    fill="#e4a40b" data-original="#000000" class=""></path>
+                                                <path
+                                                    d="M372.939,264.667H132.333c-6.641,0-12.03,5.39-12.03,12.03c0,6.641,5.39,12.03,12.03,12.03h240.606    c6.641,0,12.03-5.39,12.03-12.03C384.97,270.056,379.58,264.667,372.939,264.667z"
+                                                    fill="#e4a40b" data-original="#000000" class=""></path>
+                                            </g>
+                                            <g>
+                                            </g>
+                                            <g>
+                                            </g>
+                                            <g>
+                                            </g>
+                                            <g>
+                                            </g>
+                                            <g>
+                                            </g>
+                                            <g>
+                                            </g>
+                                        </g>
+                                        <g xmlns="http://www.w3.org/2000/svg">
+                                        </g>
+                                        <g xmlns="http://www.w3.org/2000/svg">
+                                        </g>
+                                        <g xmlns="http://www.w3.org/2000/svg">
+                                        </g>
+                                        <g xmlns="http://www.w3.org/2000/svg">
+                                        </g>
+                                        <g xmlns="http://www.w3.org/2000/svg">
+                                        </g>
+                                        <g xmlns="http://www.w3.org/2000/svg">
+                                        </g>
+                                        <g xmlns="http://www.w3.org/2000/svg">
+                                        </g>
+                                        <g xmlns="http://www.w3.org/2000/svg">
+                                        </g>
+                                        <g xmlns="http://www.w3.org/2000/svg">
+                                        </g>
+                                        <g xmlns="http://www.w3.org/2000/svg">
+                                        </g>
+                                        <g xmlns="http://www.w3.org/2000/svg">
+                                        </g>
+                                        <g xmlns="http://www.w3.org/2000/svg">
+                                        </g>
+                                        <g xmlns="http://www.w3.org/2000/svg">
+                                        </g>
+                                        <g xmlns="http://www.w3.org/2000/svg">
+                                        </g>
+                                        <g xmlns="http://www.w3.org/2000/svg">
+                                        </g>
+                                    </g>
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="form-search-mobile flex lg:hidden items-center justify-center">
+                <span class="close-form-search"></span>
+                <form action="" method="" class="h-search relative overflow-hidden">
+                    <input type="text" name="" value="" placeholder="Search..." id="input-search-header"
+                        class="fom-control text-[#E4A40B] bg-[#FFFBF1] placeholder:text-[#E4A40B] h-11 w-full py-2 px-4 rounded-[2.5rem] border-[1px] border-solid border-[#E4A40B] pr-12">
+                    <button
+                        class="btn-search absolute top-1/2 -translate-y-1/2 right-0 z-[1] inline-flex items-center justify-center w-11 h-[42px] rounded-full border-[1px] border-solid border-[#E4A40B] bg-[#FFFBF1]"><img
+                            src="theme/frontend/images/icon-search.svg" class="w-5 h-5 object-contain "
+                            alt="search"></button>
+                </form>
+            </div>
+        </div>
+        <section class="section-banner__pages bg-no-repeat bg-cover 2xl:py-52 lg:py-28 py-16"
+            style="background-image: url(theme/frontend/images/banner-pages.jpg);">
+            <div class="container text-center">
+                <h2 class="title-banner wow fadeInUp">Tin tức về gaha</h2>
+                <ul class="breadcrumb wow fadeInUp" data-wow-delay="0.2s">
+                    <li><a href="#" title="">Trang chủ</a></li>
+                    <li><span>Tin tức</span></li>
+                </ul>
+            </div>
+        </section>
+        <section class="section-all section-new__hot lg:py-8 py-5">
+            <div class="container">
+                <p class="title-all 2xl:mb-8 mb-6">TIN TỨC NỔI BẬT</p>
+                <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-6 gap-4">
+                    <div class="col-span-1 wow fadeInLeft">
+                        <div class="new-hot__main">
+                            <a href="#" title="" class="img img__ block c-img lg:mb-4 mb-2">
+                                <img src="theme/frontend/images/new-hot-main.jpg" alt="">
+                            </a>
+                            <ul class="time-new__all text-[#888] lg:text-[0.875rem] mb-2">
+                                <li>24/06/2022</li>
+                                <li>Tin nội bộ</li>
+                            </ul>
+                            <h3>
+                                <a href="#" title=""
+                                    class="title font-semibold lg:text-[1.125rem] text-[1rem] text-[#252525] block mb-2">
+                                    9 bí quyết chăm sóc da khỏe đẹp trong độ tuổi 20
+                                </a>
+                            </h3>
+                            <div class="short_content">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tellus et, nec aliquam
+                                auctor purus. Diam commodo morbi id habitant tellus. Dolor, dui arcu nisl nulla
+                                tincidunt nulla eu amet. Diam commodo morbi id habitant tellus.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-span-1 flex sm:block flex-nowrap overflow-x-auto sm:overscroll-x-none gap-x-4 wow fadeInRight">
+                        <div class="new-hot__small block sm:flex items-center 2xl:mb-8 mb-4 last:mb-0">
+                            <div class="img-new shrink-0 2xl:w-[208px] lg:w-[170px] sm:w-[150px] sm:mr-4 mb-2 sm:mb-0">
+                                <a href="#" title="" class="img img__ block c-img rounded-[10px]">
+                                    <img src="theme/frontend/images/new-small.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="flex-1">
+                                <ul class="time-new__all text-[#888] lg:text-[0.875rem] mb-2">
+                                    <li>24/06/2022</li>
+                                    <li>Tin nội bộ</li>
+                                </ul>
+                                <h3>
+                                    <a href="#" title=""
+                                        class="title font-semibold 2xl:text-[1.125rem] text-[1rem] text-[#252525] mb-2">
+                                        GAHA đưa công nghệ hiện đại nhập khẩu từ Châu Âu vào dây chuyền sản xuất
+                                    </a>
+                                </h3>
+                                <div class="short_content lg:text-[0.875rem]">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tellus et, nec aliquam
+                                    auctor purus. Diam commodo morbi id habitant tellus morbi id habitant tellus.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="new-hot__small block sm:flex items-center 2xl:mb-8 mb-4 last:mb-0">
+                            <div class="img-new shrink-0 2xl:w-[208px] lg:w-[170px] sm:w-[150px] sm:mr-4 mb-2 sm:mb-0">
+                                <a href="#" title="" class="img img__ block c-img rounded-[10px]">
+                                    <img src="theme/frontend/images/new-small.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="flex-1">
+                                <ul class="time-new__all text-[#888] lg:text-[0.875rem] mb-2">
+                                    <li>24/06/2022</li>
+                                    <li>Tin nội bộ</li>
+                                </ul>
+                                <h3>
+                                    <a href="#" title=""
+                                        class="title font-semibold 2xl:text-[1.125rem] text-[1rem] text-[#252525] mb-2">
+                                        GAHA đưa công nghệ hiện đại nhập khẩu từ Châu Âu vào dây chuyền sản xuất
+                                    </a>
+                                </h3>
+                                <div class="short_content lg:text-[0.875rem]">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tellus et, nec aliquam
+                                    auctor purus. Diam commodo morbi id habitant tellus morbi id habitant tellus.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="new-hot__small block sm:flex items-center 2xl:mb-8 mb-4 last:mb-0">
+                            <div class="img-new shrink-0 2xl:w-[208px] lg:w-[170px] sm:w-[150px] sm:mr-4 mb-2 sm:mb-0">
+                                <a href="#" title="" class="img img__ block c-img rounded-[10px]">
+                                    <img src="theme/frontend/images/new-small.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="flex-1">
+                                <ul class="time-new__all text-[#888] lg:text-[0.875rem] mb-2">
+                                    <li>24/06/2022</li>
+                                    <li>Tin nội bộ</li>
+                                </ul>
+                                <h3>
+                                    <a href="#" title=""
+                                        class="title font-semibold 2xl:text-[1.125rem] text-[1rem] text-[#252525] mb-2">
+                                        GAHA đưa công nghệ hiện đại nhập khẩu từ Châu Âu vào dây chuyền sản xuất
+                                    </a>
+                                </h3>
+                                <div class="short_content lg:text-[0.875rem]">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tellus et, nec aliquam
+                                    auctor purus. Diam commodo morbi id habitant tellus morbi id habitant tellus.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-all new__all lg:py-8 py-5">
+            <div class="container">
+                <p class="title-all 2xl:mb-8 mb-6">TIN TỨC khác</p>
+                <div class="grid grid-cols-2 lg:grid-cols-4 lg:gap-6 sm-gap-3 gap-2">
+                    <div class="col-span-1 wow fadeInUp" data-wow-delay="0.01s">
+                        <div class="new-hot__main item-new__all">
+                            <a href="#" title="" class="img img__ block c-img lg:mb-4 mb-2">
+                                <img src="theme/frontend/images/new-hot-main.jpg" alt="">
+                            </a>
+                            <div class="new-content">
+                                <ul class="time-new__all text-[#888] lg:text-[0.875rem] mb-2">
+                                    <li>24/06/2022</li>
+                                    <li>Tin nội bộ</li>
+                                </ul>
+                                <h3>
+                                    <a href="#" title=""
+                                        class="title font-semibold lg:text-[1.125rem] text-[1rem] text-[#252525] block mb-2">
+                                        9 bí quyết chăm sóc da khỏe đẹp trong độ tuổi 20
+                                    </a>
+                                </h3>
+                                <div class="short_content">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tellus et, nec aliquam
+                                    auctor purus. Diam commodo morbi id habitant tellus. Dolor, dui arcu nisl nulla
+                                    tincidunt nulla eu amet. Diam commodo morbi id habitant tellus.
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-span-1 wow fadeInUp" data-wow-delay="0.03s">
+                        <div class="new-hot__main item-new__all">
+                            <a href="#" title="" class="img img__ block c-img lg:mb-4 mb-2">
+                                <img src="theme/frontend/images/new-hot-main.jpg" alt="">
+                            </a>
+                            <div class="new-content">
+                                <ul class="time-new__all text-[#888] lg:text-[0.875rem] mb-2">
+                                    <li>24/06/2022</li>
+                                    <li>Tin nội bộ</li>
+                                </ul>
+                                <h3>
+                                    <a href="#" title=""
+                                        class="title font-semibold lg:text-[1.125rem] text-[1rem] text-[#252525] block mb-2">
+                                        9 bí quyết chăm sóc da khỏe đẹp trong độ tuổi 20
+                                    </a>
+                                </h3>
+                                <div class="short_content">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tellus et, nec aliquam
+                                    auctor purus. Diam commodo morbi id habitant tellus. Dolor, dui arcu nisl nulla
+                                    tincidunt nulla eu amet. Diam commodo morbi id habitant tellus.
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="pagination">
+                    <strong>1</strong>
+                    <a href="">2</a>
+                    <a href="">3</a>
+                    <a href="">4</a>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer relative">
+            <div class="footer-top bg-no-repeat bg-cover lg:pt-12 lg:pb-36 py-5"
+                style="background-image: url(theme/frontend/images/bg-footer.jpg);">
+                <div class="container">
+                    <div class="block lg:grid grid-cols-12 lg:gap-x-6 gap-x-3 2xl:mb-10 lg:mb-6 mb-4">
+                        <div class="col-span-5 mb-4 lg:mb-0">
+                            <a href="" title="" class="logo-footer">
+                                <img src="theme/frontend/images/logo-footer.png" alt="logo">
+                            </a>
+                            <p
+                                class="title-footer font-semibold uppercase text-white lg:text-[1.125rem] text-[1rem] relative lg:mb-8 mb-4">
+                                CÔNG TY TNHH GAHA</p>
+                            <ul class="list-contact text-white">
+                                <li class="mb-3 last:mb-0">
+                                    <img src="theme/frontend/images/address.svg" alt="icon"
+                                        class="address inline-block mr-2">
+                                    <span class="font-semibold">Địa chỉ:</span>
+                                    Số 12, LK 8, Khu liền kề Văn Khê, Hà Đông, Hà Nội
+                                </li>
+                                <li class="mb-3 last:mb-0">
+                                    <img src="theme/frontend/images/ecology.svg" alt="icon"
+                                        class="address inline-block mr-2">
+                                    <span class="font-semibold">Nhà máy:</span>
+                                    Quốc lộ 21 Thị trấn Yên Định, Nam Định
+                                </li>
+                                <li class="mb-3 last:mb-0">
+                                    <img src="theme/frontend/images/hotline.svg" alt="icon"
+                                        class="address inline-block mr-2">
+                                    <span class="font-semibold">Hotline:</span>
+                                    0988 666 888 - 0911 123 123
+                                </li>
+                                <li class="mb-3 last:mb-0">
+                                    <img src="theme/frontend/images/mail.svg" alt="icon"
+                                        class="address inline-block mr-2">
+                                    <span class="font-semibold">Email:</span>
+                                    support.gaha@gmail.com
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-span-7">
+                            <div class="grid grid-cols-2 sm:grid-cols-3 lg:gap-6 gap-4">
+                                <div class="col-span-1">
+                                    <p
+                                        class="title-footer font-semibold uppercase text-white lg:text-[1.125rem] text-[1rem] relative lg:mb-8 mb-4">
+                                        Link nhanh</p>
+                                    <div class="nav-footer">
+                                        <ul>
+                                            <li><a href="#" title="">Giới thiệu</a></li>
+                                            <li><a href="#" title="">Sản phẩm</a></li>
+                                            <li><a href="#" title="">Dịch vụ</a></li>
+                                            <li><a href="#" title="">Tin tức</a></li>
+                                            <li><a href="#" title="">Liên hệ</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-span-1">
+                                    <p
+                                        class="title-footer font-semibold uppercase text-white lg:text-[1.125rem] text-[1rem] relative lg:mb-8 mb-4">
+                                        Sản phẩm</p>
+                                    <div class="nav-footer">
+                                        <ul>
+                                            <li><a href="#" title="">Dung dịch dưỡng da</a></li>
+                                            <li><a href="#" title="">Dung dịch dưỡng da</a></li>
+                                            <li><a href="#" title="">Dung dịch dưỡng da</a></li>
+                                            <li><a href="#" title="">Dung dịch dưỡng da</a></li>
+                                            <li><a href="#" title="">Dung dịch dưỡng da</a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-span-1">
+                                    <p
+                                        class="title-footer font-semibold uppercase text-white lg:text-[1.125rem] text-[1rem] relative lg:mb-8 mb-4">
+                                        Dịch vụ</p>
+                                    <div class="nav-footer">
+                                        <ul>
+                                            <li><a href="#" title="">Gia công mỹ phẩm</a></li>
+                                            <li><a href="#" title="">Gia công mỹ phẩm</a></li>
+                                            <li><a href="#" title="">Gia công mỹ phẩm</a></li>
+                                            <li><a href="#" title="">Gia công mỹ phẩm</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-2 lg:grid-cols-3 2xl:gap-11 lg:gap-6 gap-4">
+                        <div class="col-span-1">
+                            <a href="#" title="Facebook" target="_blank"
+                                class="social-footer bg-white py-2 px-4 rounded-[10px] inline-block w-full text-center">
+                                <img src="theme/frontend/images/facebook.svg" alt="fb"
+                                    class="icon-social mr-2 inline-block">
+                                <span class="font-semibold text-[#22333C] title">Facebook</span>
+                                <span class="text-[#888] hidden sm:inline-block">Truy cập vào fanpage Gaha <img
+                                        src="theme/frontend/images/right-gray.svg" class="inline-block" alt=""></span>
+                            </a>
+                        </div>
+                        <div class="col-span-1">
+                            <a href="#" title="Facebook" target="_blank"
+                                class="social-footer bg-white py-2 px-4 rounded-[10px] inline-block w-full text-center">
+                                <img src="theme/frontend/images/youtube.svg" alt="yt"
+                                    class="icon-social mr-2 inline-block">
+                                <span class="font-semibold text-[#22333C] title">Youtube</span>
+                                <span class="text-[#888] hidden sm:inline-block">Truy cập vào kênh Youtube <img
+                                        src="theme/frontend/images/right-gray.svg" class="inline-block" alt=""></span>
+                            </a>
+                        </div>
+                        <div class="col-span-2 lg:col-span-1">
+                            <form action="" method=""
+                                class="form-footer relative bg-white rounded-[10px] overflow-hidden">
+                                <input type="text" name="" value="" placeholder="Nhập Email để nhận ưu đãi mới nhất..."
+                                    class="form-control pr-[70px]">
+                                <button
+                                    class="btn-submit bg-[#22333C] inline-flex items-center justify-center text-white h-full w-16 absolute top-0 right-0 hover:bg-[#F1CF81] transition-all duration-300"
+                                    type="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom py-4 bg-[#F7E2B1]">
+                <div class="container flex items-center justify-center sm:justify-between">
+                    <p class="copy-right">Copyright © 2022 GAHA. Designed and developed by Tech5S</p>
+                    <a href="#" title="" class="link hidden sm:block">
+                        <img src="theme/frontend/images/dmca.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+    <script src="theme/frontend/tech5s_js/tech5s_base.min.js" defer></script>
+    <script src="theme/frontend/tech5s_js/libraries/Tech.js" defer></script>
+    <script src="theme/frontend/tech5s_js/libraries/BackToTop.js" defer></script>
+    <script src="theme/frontend/js/wow.min.js" defer></script>
+    <script src="theme/frontend/js/fslightbox.js" defer></script>
+    <script src="theme/frontend/js/swiper-bundle.min.js" defer></script>
+    <script src="theme/frontend/js/slider.js" defer></script>
+    <script src="theme/frontend/js/script.js" defer></script>
+
+</body>
+
+</html>

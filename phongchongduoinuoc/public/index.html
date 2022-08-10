@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="../src/tailwind.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Phòng chống đuối nước</title>
+</head>
+<body>
+    <section class="header header_upgrate w-full bg-[#ffffff] sticky top-0 lg:static z-50">
+        <div class=" ">
+            <div class="title_page w-full bg-[#1293D2] text-center p-[5px] text-[#fff] uppercase text-[0.75rem] lg:hidden">Chương trình phòng chống đuối nước cho trẻ em việt nam</div>
+            <div class="header_top container w-full mx-auto lg:px-4 px-3 flex justify-between py-2 ">
+                <div class=" flex">
+                    <div class="logo grid-cols-3">
+                        <a href="" class="img">
+                            <img src="./img/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="title_page hidden lg:text-[1.5625rem] 2xl:text-[1.875rem] text-[#1293D2] uppercase font-bold items-center justify-center lg:flex">
+                        <h2>Chương trình phòng chống đuối nước cho trẻ em việt nam</h2>
+                    </div>
+                </div>
+                <div class="flex justify-center items-center">
+                    <div class="search flex">
+                        <form action="" method="" class="frm relative">
+                            <input type="text" placeholder="Tìm kiếm...." class=" border-[1px] border-[#DADAE5] rounded-2xl px-3 py-1 text-[0.75rem] focus:border-none">
+                            <button class="btn absolute top-0 right-3">
+                                <i class="fa-solid fa-magnifying-glass text-[#1293D2] text-[0.75rem]"></i>
+                            </button>
+                        </form>
+                        <div class="menu-mobile text-center lg:hidden ml-2">
+                            <button class=" bg-[#16b2e4] px-2 py-[2px] text-center rounded-md ">
+                                <i class="fa-solid fa-bars text-[#fff]"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header_bottom max-w-[280px] lg:max-w-[100%] w-[100%] h-[100%] lg:w-full lg:bg-[#1293D2] bg-[#fff] fixed z-50 top-0 left-0 border-r-4 border-[#1293D2] block lg:sticky lg:top-0 lg:border-none translate-x-[-100%] transition delay-100 duration-700 ease-in-out  lg:translate-x-0 ">
+                <div class=" lg:flex justify-between container w-full mx-auto lg:px-4  ">
+                    <a href="" class="logo_mobile_menu flex items-center justify-center lg:hidden pt-4">
+                        <img src="../public/img/logo.png" alt="">
+                    </a>
+                    <ul class="menu text-[0.8125rem] lg:text-[0.9375rem] 2xl:text-[1.0938rem] lg:flex lg:justify-center lg:items-center">
+                        <li class="list_menu lg:border-none lg:mr-[0.625rem] lg:my-[0.625rem] lg:py-[2px] lg:pl-0 lg:pr-8"><a href="" class="a_name block lg:inline lg:border-none lg:text-[#fff]">Trang chủ</a></li>
+                        <li class="list_menu lg:border-none lg:mr-[0.625rem] lg:my-[0.625rem] lg:py-[2px] lg:pl-0 lg:pr-8 ">
+                            <div class="flex relative items-center justify-between">
+                                <a href="" class="a_name lg:text-[#fff] block lg:inline lg:border-none">Thông tin</a>
+                                <button class="btn_sub absolute top-1 right-0 lg:hidden py-2 px-4 "><i class=" fa-solid fa-angle-right"></i></button>
+                            </div>
+                            <ul class="sub_menu pl-4 hidden">
+                                <li class="list_menu"><a href="" class="a_name block lg:inline lg:border-none ">Về chúng tôi</a></li>
+                                <li class="list_menu"><a href="" class="a_name block lg:inline lg:border-none ">Hoạt động</a></li>
+                            </ul>
+                        </li>
+                        <li class="list_menu lg:border-none lg:mr-[0.625rem] lg:my-[0.625rem] lg:py-[2px] lg:pl-0 lg:pr-8"><a href="" class="a_name block lg:inline lg:border-none lg:text-[#fff]">Tài liệu</a></li>
+                        <li class="list_menu lg:border-none lg:mr-[0.625rem] lg:my-[0.625rem] lg:py-[2px] lg:pl-0 lg:pr-8"><a href="" class="a_name block lg:inline lg:border-none lg:text-[#fff]">Số liệu</a></li>
+                        <li class="list_menu lg:border-none lg:mr-[0.625rem] lg:my-[0.625rem] lg:py-[2px] lg:pl-0 lg:pr-8"><a href="" class="a_name block lg:inline lg:border-none lg:text-[#fff]">Tin tức & Sự kiện</a></li>
+                        <li class="list_menu lg:border-none lg:mr-[0.625rem] lg:my-[0.625rem] lg:py-[2px] lg:pl-0 lg:pr-8"><a href="" class="a_name block lg:inline lg:border-none lg:text-[#fff]">Dành cho cán bộ dự án</a></li>
+                        <li class="list_menu lg:border-none lg:mr-[0.625rem] lg:my-[0.625rem] lg:py-[2px] lg:pl-0 lg:pr-8"><a href="" class="a_name block lg:inline lg:border-none lg:text-[#fff]">Liên hệ</a></li>
+                    </ul>
+                    <a href="" class="login text-[0.9375rem] 2xl:text-[1.0938rem] lg:ml-[0.625rem] lg:my-[8px] lg:py-[2px] lg:px-3 lg:rounded-xl lg:mx-0">Đăng nhập</a>
+                </div>
+            </div>
+            <div class="overlay fixed translate-x-[100%] top-0 left-0 right-0 bottom-0 z-20 bg-[#000] opacity-70 "></div>
+        </div>
+    </section>
+    <section class="banner ">
+            <div class="swiper mySwiper ">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="./img/slide-1.png" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./img/slide-2.png" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./img/slide-3.png" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./img/slide-4.png" alt="">
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+    </section>
+    <section class="question question_upgrate py-5 md:py-8 lg:py-16">
+        <div class="container w-full mx-auto lg:px-4 px-3 gap-3  p-4">
+            <div class="title uppercase text-center text-[1.25rem] md:text-[1.375rem] lg:text-[1.5313rem] xl:text-[1.6563rem] 2xl:text-[1.75rem] lg:ml-[0.625rem] lg:text-lg text-[#fff] pb-4 md:pb-8 lg:pb-10">
+                <h2>Bạn có biết ?</h2>
+            </div>
+            <div class="content row-auto block md:flex gap-4 lg:gap-8 mb-2 sm:mb-4">
+                <div class="col-span-12 md:col-span-4 block w-[100%]">
+                    <div class="blog bg-[#fff] p-2 sm:p-3 md-4 h-[100%] min-h-[11.25rem] md:min-h-[15.625rem] relative rounded-md mb-3 md:mb-0 ">
+                        <div class="number pb-2 sm:pb-3 md:pb-4">
+                            <span class="number_text text-5xl  ">01</span>
+                            <span class="number_text text-5xl opacity-40 ml-[-48px] text-[#215c7c]">01</span>
+                        </div>
+                        <div class="desc text-[#215c7c] text-[0.8125rem] lg:text-[0.9375rem] 2xl:text-[1.0938rem]">Đuối nước - nguyên nhân gây tai nạn thương tích hàng đầu cho trẻ em Việt Nam</div>
+                        <div class="blog_img w-12 h-12 flex bottom-4 right-4 absolute ">
+                            <img src="./img/qs-1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-12 md:col-span-4 block w-[100%]">
+                    <div class="blog  bg-[#fff] p-2 sm:p-3 md-4 h-[100%] min-h-[11.25rem] md:min-h-[15.625rem] relative rounded-md mb-3 md:mb-0">
+                        <div class="number pb-2 sm:pb-3 md:pb-4">
+                            <span class="number_text text-5xl  ">05</span>
+                            <span class="number_text text-5xl opacity-40 ml-[-48px] text-[#e11b51] ">05</span>
+                        </div>
+                        <div class="desc text-[#e11b51] text-[0.8125rem] lg:text-[0.9375rem] 2xl:text-[1.0938rem]">Vệt Nam có tỉ lệ trẻ em tử vong do đuối nước cao thứ 5 trong các nước Tây Thái Bình Dương</div>
+                        <div class="blog_img w-12 h-12 flex bottom-4 right-4 absolute ">
+                            <img src="./img/qs-2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-12 md:col-span-4 block w-[100%]">
+                    <div class="blog  bg-[#fff] p-2 sm:p-3 md-4 h-[100%] min-h-[11.25rem] md:min-h-[15.625rem] relative rounded-md mb-3 md:mb-0">
+                        <div class="number pb-2 sm:pb-3 md:pb-4">
+                            <span class="number_text text-5xl  ">05</span>
+                            <span class="number_text text-5xl opacity-40 ml-[-48px] text-[#33684b] ">05</span>
+                        </div>
+                        <div class="desc text-[#33684b] text-[0.8125rem] lg:text-[0.9375rem] 2xl:text-[1.0938rem]">Trung bình mỗi ngày có khoảng 5 trẻ em tử vong do đuối nước</div>
+                        <div class="blog_img w-12 h-12 flex bottom-4 right-4 absolute ">
+                            <img src="./img/qs-3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="data data_upgrate w-full bg-[#f1f7fc]  py-5 md:py-8 lg:py-16">
+        <div class="container w-full mx-auto lg:px-4 px-3">
+            <div class="grid grid-cols-2 gap-4 lg:gap-8">
+                <div class=" col-span-2 lg:col-span-1">
+                    <a href="" class="img">
+                        <img src="./img/data.png" alt="">
+                    </a>
+                </div>
+                <div class="col-span-2 lg:col-span-1 flex justify-center items-center">
+                    <div class=" block">
+                        <div class="title_block text-center text-[1.25rem] md:text-[1.375rem] lg:text-[1.5313rem] xl:text-[1.6563rem] 2xl:text-[1.75rem] lg:ml-[0.625rem] lg:text-lg pb-4 md:pb-6 lg:pb-8 text-[#333333]">
+                            <h2>Số liệu thống kê về chương trình</h2>
+                        </div>
+                        <div class="short_content pb-4 lg:pb-8 text-[0.8125rem] lg:text-[0.9375rem] 2xl:text-[1.0938rem] text-[#000000]">
+                            <p>Các số liệu thống kê về tình hình tai nạn đuối nước trẻ em tại Việt Nam và các chương trình can thiệp...</p>
+                        </div>
+                        <div class="more flex items-center justify-center">
+                            <a href="" class="btn_more flex w-max px-4 py-2 bg-[#0198CF] justify-center items-center rounded-3xl border-[1px] border-transparent">
+                                <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8.50008 15.5834C12.4121 15.5834 15.5834 12.4121 15.5834 8.50008C15.5834 4.58806 12.4121 1.41675 8.50008 1.41675C4.58806 1.41675 1.41675 4.58806 1.41675 8.50008C1.41675 12.4121 4.58806 15.5834 8.50008 15.5834Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M8.50008 15.5834C12.4121 15.5834 15.5834 12.4121 15.5834 8.50008C15.5834 4.58806 12.4121 1.41675 8.50008 1.41675C4.58806 1.41675 1.41675 4.58806 1.41675 8.50008C1.41675 12.4121 4.58806 15.5834 8.50008 15.5834Z" stroke="url(#paint0_linear)" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M8.5 11.3334L11.3333 8.50008L8.5 5.66675" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M8.5 11.3334L11.3333 8.50008L8.5 5.66675" stroke="url(#paint1_linear)" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M5.66675 8.5H11.3334" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M5.66675 8.5H11.3334" stroke="url(#paint2_linear)" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <defs>
+                                    <linearGradient id="paint0_linear" x1="8.50008" y1="1.41675" x2="8.50008" y2="15.5834" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="white"/>
+                                    <stop offset="1" stop-color="white" stop-opacity="0"/>
+                                    </linearGradient>
+                                    <linearGradient id="paint1_linear" x1="9.91667" y1="5.66675" x2="9.91667" y2="11.3334" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="white"/>
+                                    <stop offset="1" stop-color="white" stop-opacity="0"/>
+                                    </linearGradient>
+                                    <linearGradient id="paint2_linear" x1="8.50008" y1="8.5" x2="8.50008" y2="9.5" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="white"/>
+                                    <stop offset="1" stop-color="white" stop-opacity="0"/>
+                                    </linearGradient>
+                                    </defs>
+                                </svg>
+                                <span class="name_more text-[#fff] px-2">Xem thêm</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="question job job_upgrate  py-5 md:py-8 lg:py-16">
+        <div class="container mx-auto lg:px-4 px-3 ">
+            <div class="title uppercase text-center text-[1.25rem] md:text-[1.375rem] lg:text-[1.5313rem] xl:text-[1.6563rem] 2xl:text-[1.75rem] lg:ml-[0.625rem] lg:text-lg text-[#fff] pb-4 md:pb-8 lg:pb-10">
+                <h2>Chúng tôi đang làm gì</h2>
+            </div>
+            <div class="grid grid-cols-2 gap-4 lg:gap-8">
+                <div class=" col-span-2 md:col-span-1 bg-[#fff] rounded-md">
+                    <div class="video_block">
+                        <div class="video p-4">
+                            <iframe class="w-full h-[300px]" src="https://www.youtube.com/embed/brU_90JVvKM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="content-video pb-2 lg:pb-4 text-center">An toàn cho trẻ em, hạnh phúc của mọi nhà</div>
+                    </div>
+                </div>
+                <div class="col-span-2 md:col-span-1 bg-[#fff] rounded-md">
+                    <div class="video_block">
+                        <div class="video p-4">
+                            <iframe class="w-full h-[300px]" src="https://www.youtube.com/embed/KyLl7ISLZyI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="content-video pb-2 lg:pb-4 text-center">Đảm bảo an toàn PCĐN cho trẻ em mùa mưa lũ</div>
+                    </div>
+                </div>
+            </div>
+            <div class="more flex items-center justify-center mt-4">
+                <a href="" class="btn_more flex w-max px-4 py-2 bg-[#e91e63] justify-center items-center rounded-3xl border-[1px] border-transparent">
+                    <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.50008 15.5834C12.4121 15.5834 15.5834 12.4121 15.5834 8.50008C15.5834 4.58806 12.4121 1.41675 8.50008 1.41675C4.58806 1.41675 1.41675 4.58806 1.41675 8.50008C1.41675 12.4121 4.58806 15.5834 8.50008 15.5834Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M8.50008 15.5834C12.4121 15.5834 15.5834 12.4121 15.5834 8.50008C15.5834 4.58806 12.4121 1.41675 8.50008 1.41675C4.58806 1.41675 1.41675 4.58806 1.41675 8.50008C1.41675 12.4121 4.58806 15.5834 8.50008 15.5834Z" stroke="url(#paint0_linear)" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M8.5 11.3334L11.3333 8.50008L8.5 5.66675" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M8.5 11.3334L11.3333 8.50008L8.5 5.66675" stroke="url(#paint1_linear)" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M5.66675 8.5H11.3334" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M5.66675 8.5H11.3334" stroke="url(#paint2_linear)" stroke-linecap="round" stroke-linejoin="round"/>
+                        <defs>
+                        <linearGradient id="paint0_linear" x1="8.50008" y1="1.41675" x2="8.50008" y2="15.5834" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="white"/>
+                        <stop offset="1" stop-color="white" stop-opacity="0"/>
+                        </linearGradient>
+                        <linearGradient id="paint1_linear" x1="9.91667" y1="5.66675" x2="9.91667" y2="11.3334" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="white"/>
+                        <stop offset="1" stop-color="white" stop-opacity="0"/>
+                        </linearGradient>
+                        <linearGradient id="paint2_linear" x1="8.50008" y1="8.5" x2="8.50008" y2="9.5" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="white"/>
+                        <stop offset="1" stop-color="white" stop-opacity="0"/>
+                        </linearGradient>
+                        </defs>
+                    </svg>
+                    <span class="name_more text-[#fff] px-2">Xem thêm</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="event event_upgrate  py-5 md:py-8 lg:py-16 bg-[#f1f7fc]">
+        <div class="container mx-auto lg:px-4 px-3 ">
+            <div class="title uppercase text-center text-[1.25rem] md:text-[1.375rem] lg:text-[1.5313rem] xl:text-[1.6563rem] 2xl:text-[1.75rem] lg:ml-[0.625rem] lg:text-lg pb-4 md:pb-8 lg:pb-10">
+                <h2>Tin tức & Sự kiện</h2>
+            </div>
+            <div class="grid grid-cols-3 gap-4 lg:gap-8">
+                <div class=" col-span-3 md:col-span-1">
+                    <div class="news_block">
+                        <div class="img">
+                            <a href="">
+                                <img src="./img/news-1.png" alt="">
+                            </a>
+                        </div>
+                        <div class="content_news mt-[-4.6875rem] relative bg-[#fff] mx-4 p-3 pb-4 lg:pb-8 rounded-md">
+                            <div class="title_news pb-3">
+                                <a href="" class="title_tag"><h2>Đồng Nai: 13 trẻ  em đuối nước từ đầu năm, chỉ 19,9% trẻ em biết bơi</h2></a>
+                            </div>
+                            <div class="time flex text-[#555555] items-center pb-3">
+                                <i class="fa-solid fa-clock-rotate-left"></i>
+                                <p id="time"></p>
+                            </div>
+                            <div class="desc">
+                                <span class="short_desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus labore quidem ex possimus quis rem libero, illum, at itaque maxime alias vero accusantium corporis tempora accusamus veritatis eligendi obcaecati culpa.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-span-3 md:col-span-1">
+                    <div class="news_block">
+                        <div class="img">
+                            <a href="">
+                                <img src="./img/news-2.png" alt="">
+                            </a>
+                        </div>
+                        <div class="content_news mt-[-4.6875rem] relative bg-[#fff] mx-4 p-3 pb-4 lg:pb-8  rounded-md">
+                            <div class="title_news pb-3">
+                                <a href="" class="title_tag"><h2>Lớp học bơi miễn phí mùa hè xanh ở Thanh Hóa</h2></a>
+                            </div>
+                            <div class="time flex text-[#555555] items-center pb-3">
+                                <i class="fa-solid fa-clock-rotate-left"></i>
+                                <p id="time"></p>
+                            </div>
+                            <div class="desc">
+                                <span class="short_desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates culpa a nihil, laborum repudiandae sunt magnam vero delectus, et mollitia minus officia odit numquam quae. Ut, voluptates repellendus. Quidem, reiciendis!</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-span-3 md:col-span-1">
+                    <div class="news_block">
+                        <div class="img">
+                            <a href="">
+                                <img src="./img/news-3.png" alt="">
+                            </a>
+                        </div>
+                        <div class="content_news mt-[-4.6875rem] relative bg-[#fff] mx-4 p-3 pb-4 lg:pb-8 rounded-md">
+                            <div class="title_news pb-3">
+                                <a href="" class="title_tag"><h2>Hai mẹ con du khách Hà Nội bị đuối nước ở bãi biển Thiên Cầm - Hà Tĩnh</h2></a>
+                            </div>
+                            <div class="time flex text-[#555555] items-center pb-3">
+                                <i class="fa-solid fa-clock-rotate-left"></i>
+                                <p id="time"></p>
+                            </div>
+                            <div class="desc">
+                                <span class="short_desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non eius, eaque praesentium ratione odit id vitae ad doloremque! Aspernatur possimus enim, numquam quod dignissimos libero deserunt tempora nihil doloribus iure!</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-span-3 md:col-span-1">
+                    <div class="news_block">
+                        <div class="img">
+                            <a href="">
+                                <img src="./img/news-4.png" alt="">
+                            </a>
+                        </div>
+                        <div class="content_news mt-[-4.6875rem] relative bg-[#fff] mx-4 p-3 pb-4 lg:pb-8 rounded-md">
+                            <div class="title_news pb-3">
+                                <a href="" class="title_tag"><h2>Quảng Bình tuyên truyền phòng, chống đuối nước cho trẻ em</h2></a>
+                            </div>
+                            <div class="time flex text-[#555555] items-center pb-3">
+                                <i class="fa-solid fa-clock-rotate-left"></i>
+                                <p id="time"></p>
+                            </div>
+                            <div class="desc">
+                                <span class="short_desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus, necessitatibus quia? Sequi ut, voluptates id corporis veritatis sint in voluptatibus molestias harum? Eius a dolores mollitia quae, laboriosam optio sunt!</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-span-3 md:col-span-1">
+                    <div class="news_block">
+                        <div class="img">
+                            <a href="">
+                                <img src="./img/news-5.png" alt="">
+                            </a>
+                        </div>
+                        <div class="content_news mt-[-4.6875rem] relative bg-[#fff] mx-4 p-3 pb-4 lg:pb-8 rounded-md">
+                            <div class="title_news pb-3">
+                                <a href="" class="title_tag"><h2>Tập huấn nâng cao năng lực phòng, chống đuối nước cho cán bộ, giáo viên cốt cán 14 tỉnh miền núi phía Bắc tại Lào Cai</h2></a>
+                            </div>
+                            <div class="time flex text-[#555555] items-center pb-3">
+                                <i class="fa-solid fa-clock-rotate-left"></i>
+                                <p id="time"></p>
+                            </div>
+                            <div class="desc">
+                                <span class="short_desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum at debitis aperiam corporis voluptate explicabo quo. Eveniet vel, esse culpa neque placeat sequi minus dicta tenetur adipisci error harum. Distinctio.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-span-3 md:col-span-1">
+                    <div class="news_block">
+                        <div class="img">
+                            <a href="">
+                                <img src="./img/news-6.png" alt="">
+                            </a>
+                        </div>
+                        <div class="content_news mt-[-4.6875rem] relative bg-[#fff] mx-4 p-3 pb-4 lg:pb-8 rounded-md">
+                            <div class="title pb-3">
+                                <a href="" class="title_tag"><h2>Khánh thành bể bơi phòng, chống đuối nước cho trẻ em tại Hà Nội</h2></a>
+                            </div>
+                            <div class="time flex text-[#555555] items-center pb-3">
+                                <i class="fa-solid fa-clock-rotate-left"></i>
+                                <p id="time"></p>
+                            </div>
+                            <div class="desc">
+                                <span class="short_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, obcaecati, ipsam quas aliquam molestiae cupiditate nam deserunt, deleniti reprehenderit optio rem inventore eaque facilis temporibus odio reiciendis perferendis veritatis sit!</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="more flex items-center justify-center mt-4">
+                <a href="" class="btn_more flex w-max px-4 py-2 bg-[#0198CF] justify-center items-center rounded-3xl border-[1px] border-transparent">
+                    <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.50008 15.5834C12.4121 15.5834 15.5834 12.4121 15.5834 8.50008C15.5834 4.58806 12.4121 1.41675 8.50008 1.41675C4.58806 1.41675 1.41675 4.58806 1.41675 8.50008C1.41675 12.4121 4.58806 15.5834 8.50008 15.5834Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M8.50008 15.5834C12.4121 15.5834 15.5834 12.4121 15.5834 8.50008C15.5834 4.58806 12.4121 1.41675 8.50008 1.41675C4.58806 1.41675 1.41675 4.58806 1.41675 8.50008C1.41675 12.4121 4.58806 15.5834 8.50008 15.5834Z" stroke="url(#paint0_linear)" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M8.5 11.3334L11.3333 8.50008L8.5 5.66675" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M8.5 11.3334L11.3333 8.50008L8.5 5.66675" stroke="url(#paint1_linear)" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M5.66675 8.5H11.3334" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M5.66675 8.5H11.3334" stroke="url(#paint2_linear)" stroke-linecap="round" stroke-linejoin="round"/>
+                        <defs>
+                        <linearGradient id="paint0_linear" x1="8.50008" y1="1.41675" x2="8.50008" y2="15.5834" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="white"/>
+                        <stop offset="1" stop-color="white" stop-opacity="0"/>
+                        </linearGradient>
+                        <linearGradient id="paint1_linear" x1="9.91667" y1="5.66675" x2="9.91667" y2="11.3334" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="white"/>
+                        <stop offset="1" stop-color="white" stop-opacity="0"/>
+                        </linearGradient>
+                        <linearGradient id="paint2_linear" x1="8.50008" y1="8.5" x2="8.50008" y2="9.5" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="white"/>
+                        <stop offset="1" stop-color="white" stop-opacity="0"/>
+                        </linearGradient>
+                        </defs>
+                    </svg>
+                    <span class="name_more text-[#fff] px-2">Xem thêm</span>
+                </a>
+            </div>
+        </div>
+
+    </section>
+    <section class="partner partner_upgrate  py-5 md:py-8 lg:py-16 bg-[#fff]">
+        <div class="container mx-auto lg:px-4 px-3 ">
+            <div class="title uppercase text-center text-[1.25rem] md:text-[1.375rem] lg:text-[1.5313rem] xl:text-[1.6563rem] 2xl:text-[1.75rem] lg:ml-[0.625rem] lg:text-lg pb-4 md:pb-8 lg:pb-10">
+                <h2>Đối tác</h2>
+            </div>
+            <div class="grid grid-rows-4 md:grid-rows-3 lg:grid-rows-2 grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-4 lg:gap-8">
+                <div class="item col-span-2">
+                    <a href="">
+                        <img src="./img/lk-1.png" alt="">
+                    </a>
+                </div>
+                <div class="item col-span-2">
+                    <a href="">
+                        <img src="./img/lk-2.png" alt="">
+                    </a>
+                </div>
+                <div class="item col-span-2">
+                    <a href="">
+                        <img src="./img/lk-3.png" alt="">
+                    </a>
+                </div>
+                <div class="item col-span-2">
+                    <a href="">
+                        <img src="./img/lk-4.png" alt="">
+                    </a>
+                </div>
+                <div class="item col-span-2 lg:col-start-2">
+                    <a href="">
+                        <img src="./img/lk-5.png" alt="">
+                    </a>
+                </div>
+                <div class="item col-span-2 lg:col-start-4 lg:col-end-6 ">
+                    <a href="">
+                        <img src="./img/lk-6.png" alt="">
+                    </a>
+                </div>
+                <div class="item col-span-2 col-start-2 col-end-4 md:col-start-3 md:col-end-5 lg:col-start-6 lg:col-end-8">
+                    <a href="">
+                        <img src="./img/lk-7.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer footer_upgrate bg-[#1293D2]  pt-5 md:pt-8 lg:pt-16">
+        <div class="container mx-auto lg:px-4 px-3 ">
+            <div class="grid grid-rows-3 md:grid-rows-2 lg:grid-rows-1 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+                <div class="col-span-1 md:col-span-2 lg:col-span-1 pb-4">
+                    <div class="logo_f flex justify-center items-center pb-4">
+                        <a href="">
+                            <img src="./img/logo-f.png" alt="">
+                        </a>
+                    </div>
+                    <div class="title_f text-[#fff] text-[0.9375rem] md:text-[1.125rem] xl:text-[1.375rem] text-center uppercase pb-4">
+                        <h2>Chương trình phòng chống đuối nước cho trẻ em Việt Nam</h2>
+                    </div>
+                    <div class="content_f text-[0.875rem] text-[#fff] text-center">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis ad similique explicabo quam quae quidem, odit cum accusamus, quaerat molestiae adipisci minima, suscipit in nostrum aliquid modi?</p>
+                    </div>
+                </div>
+                <div class="col-span-1 md:col-span-1 flex justify-center">
+                    <div class=" block">
+                        <div class="title_f text-[#fff] text-[0.9375rem] md:text-[1.125rem] xl:text-[1.375rem] text-left pb-5 uppercase">
+                            <h2>Thông tin liên hệ</h2>
+                        </div>
+                        <div class="address flex pb-3">
+                            <img src="./img/address.svg" alt="">
+                            <span class=" mx-3 text-[0.875rem] md:text-[0.875rem] text-[#fff]">Địa chỉ: Hà Nội</span>
+                        </div>
+                        <div class="mail pb-3 ">
+                            <a href="" class="flex hover:text-[#ffc107]">
+                                <img src="./img/mail.svg" alt="">
+                                <span class=" mx-3 text-[0.875rem] text-[#fff]">Email: mail@phongchongduoinuoc.org</span>
+                            </a>
+                        </div>
+                        <div class="global pb-3">
+                            <a href="" class="flex hover:text-[#ffc107]">
+                                <img src="./img/global.svg" alt="">
+                                <span class=" mx-3 text-[0.875rem] text-[#fff]">phongchongduoinuoc.com.vn</span>
+                            </a>
+                        </div>
+                        <div class="call flex pb-3">
+                            <div class=" w-[5rem] h-[5rem] mr-4">
+                                <a href="" class=" call_item one flex w-[5rem] h-[5rem] justify-center items-center">
+                                    <p class="text-[10px] uppercase text-[#fff] text-center">Bảo vệ <br>trẻ em <br> 111</p>
+                                </a>
+                            </div>
+                            <div class="call_item w-[5rem] two h-[5rem] mr-4">
+                                <a href="" class="call_item flex w-[5rem] h-[5rem] justify-center items-center">
+                                    <p class="text-[10px] uppercase text-[#fff] text-center">Cấp Cứu <br>Y Tế <br> 115</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-1 md:col-span-1 flex justify-center">
+                    <div class=" block">
+                        <div class="title_f text-[#fff] text-[0.9375rem] md:text-[1.125rem] xl:text-[1.375rem] text-left pb-5 uppercase">
+                            <h2>Các kênh truyền thông</h2>
+                        </div>
+                        <div class="web flex pb-5">
+                            <div class="fb w-8 h-8 rounded-2xl bg-[#fff] mr-4 flex justify-center items-center hover:bg-[#dc3545] hover:top-[2px] hover:transition delay-200">
+                                <a href="" class="text-[#0198CF] text-[0.9375rem] ">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </div>
+                            <div class="tt w-8 h-8 rounded-2xl bg-[#fff] mr-4 flex justify-center items-center hover:bg-[#dc3545] hover:top-[2px] hover:transition delay-200">
+                                <a href="" class="text-[#0198CF] text-[0.9375rem] ">
+                                    <i class="fa-brands fa-tiktok"></i>
+                                </a>
+                            </div>
+                            <div class="yt w-8 h-8 rounded-2xl bg-[#fff] mr-4 flex justify-center items-center hover:bg-[#dc3545] hover:top-[2px] hover:transition delay-200">
+                                <a href="" class="text-[#0198CF] text-[0.9375rem] ">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="text-[#fff] uppercase text-[0.9375rem] pb-5">
+                            <h2>Đăng ký nhận thông tin</h2>
+                        </div>
+                        <div class=" pb-5">
+                            <input type="text" placeholder="Nhập email" class="px-3 py-1 placeholder-[#fff] bg-[#49c3f1] text-[0.875rem] rounded min-w-[15.625rem]">
+                        </div>
+                        <div class="singup">
+                            <a href="" class="btn_more flex w-max px-4 py-2 bg-[#fff] rounded-3xl border-[1px] border-transparent">
+                                <span class="name_more text-[#0198CF] px-2">Đăng ký</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bot bg-[#13A0D3] text-[0.75rem] text-[#fff] text-center pt-1">@2018 Phong chong duoi nuoc. All Rights Reserved </div>
+    </section>
+    <div class="back_to_top fixed right-[2.1875rem] bottom-[5rem]">
+        <button id="btn_scroll" class="btn_to_top bg-[#fff] border-[1px] border-[#0198CF] rounded-[50%] cursor-pointer p-2">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 19V5" stroke="#0198CF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M5 12L12 5L19 12" stroke="#0198CF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>                    
+        </button>
+    </div>
+    <script src="../public/main.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+
+</body>
+</html>
